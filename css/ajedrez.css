@@ -1,0 +1,7 @@
+body,div{box-sizing:border-box;}
+body>div{width:320px;margin:0 auto;}
+#mensaje{padding:0.3em;}
+#mensaje,#tablero,#piezas{box-shadow:0 0 3px 0 #aaaaaa;margin:20px auto;}
+#tablero>div,#piezas>div{float:left;font-size:30px;text-align:center;background-color:white;}
+#tablero .negra{background-color:#00bcd4;}
+#piezas>div{cursor:pointer;}
